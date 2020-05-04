@@ -42,6 +42,9 @@ footer{
 .text_blue{
     color: #01233f;
 }
+.row{
+    margin: 0;
+}
 /*----------------------ACCORDEONS ------------------------------*/
 .accordionWrapper {
     padding: 30px;
@@ -145,10 +148,12 @@ footer{
     transform: scale(0.8,0.8);
 }
 .skill-list {
-    margin: 10px 0 20px;
+    text-align: center;
+    margin: 20px 0 15px;
 }
 ol, ul {
     list-style: none;
+    padding: 0;
 }
 .skill-title {
     display: block;
